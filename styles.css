@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    background: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 300px;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/*Logo imagen*/
+
+.logo img {
+    display: block;
+    margin: 100px auto;
+    width: 90px;
+    height: 90px;
+}
+
+/*Primer texto*/
+
+.first-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.first-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.first-text span {
+    display: block;
+}
+
+.first-text .access {
+    display: inline-block;
+}
+
+.buttoms {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.first-text .btn {
+    display: block;
+    margin: 12px auto;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+
+.first-text .btn2 {
+    display: block;
+    margin: 12px auto;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/*Segundo texto*/
+
+.second-text {
+    margin-bottom: 80px;
+}
+
+.second-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.second-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.second-text span {
+    display: block;
+}
+
+
+/*Primer imagen*/
+
+.conteiner-img img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 220px;
+    margin-bottom: 65px;
+}
+
+
+/*Tercer texto*/
+
+.third-text {
+    margin-bottom: 200px;
+}
+
+.third-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.third-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.third-text span {
+    display: block;
+}
+
+.third-text .sub-text2 br {
+    display: none;
+}
+
+.third-text .sub-text3 br {
+    display: none;
+}
+
+/*Cuarto texto*/
+
+.fourth-text {
+    margin-bottom: 70px;
+}
+
+.fourth-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.fourth-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.fourth-text span {
+    display: block;
+}
+
+.fourth-text br {
+    display: none;
+}
+
+
+/*Segunda imagen*/
+
+.conteiner-img2 img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 65px;
+}
+
+
+/*Quinto texto*/
+
+.fifth-text {
+    margin-bottom: 80px;
+}
+
+.fifth-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.fifth-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.fifth-text span {
+    display: block;
+}
+
+/*Primer icono*/
+
+.blacklists {
+    margin-bottom: 75px;
+}
+
+.blacklists img {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.blacklists h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.blacklists p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.blacklists span {
+    display: block;
+}
+
+.blacklists br {
+    display: none;
+}
+
+.blacklists .br-exception {
+    display: block;
+}
+
+/*Segundo icono*/
+
+.snippets {
+    margin-bottom: 75px;
+}
+
+.snippets img {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.snippets h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.snippets p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.snippets span {
+    display: block;
+}
+
+.snippets br {
+    display: none;
+}
+
+/*Tercer icono*/
+
+.preview {
+    margin-bottom: 150px;
+}
+
+.preview img {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.preview h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.preview p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.preview span {
+    display: block;
+}
+
+.preview br {
+    display: none;
+}
+
+
+/*Logos empresas*/
+
+.logo-empress {
+    display: block;
+    margin: 150px auto;
+}
+
+.logo-empress .logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+}
+
+
+/*Sexto texto*/
+
+.sixth-text {
+    margin-bottom: 80px;
+}
+
+.sixth-text h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 15px;
+}
+
+.sixth-text p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.sixth-text .br-exception2 {
+    display: none;
+}
+
+.buttoms2 {
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.sixth-text .btn3 {
+    display: block;
+    margin: 12px auto;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+
+.sixth-text .btn4 {
+    display: block;
+    margin: 12px auto;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/*Footer*/
+
+footer {
+    margin: 0px;
+}
+
+.conteiner-footer {
+    margin-left: -5px;
+    margin-bottom: -12px;
+    padding: 0px;
+    background-color: hsl(180, 11%, 95%);
+    width: 100vw;
+    height: 100%;
+}
+
+.conteiner-footer .logo-footer {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer-nav {
+    margin-top: 45px;
+    margin-left: -7px;
+}
+
+.footer-nav p {
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.socials img {
+    padding: 20px;
+}
+
+.socials img:hover {
+    fill: hsl(171, 66%, 44%) !important;
+}
+
+
+
+
+
+/*------------------MEDIA QUERY-------------------------*/
+
+
+
+
+
+@media(min-width: 700px) {
+
+html {
+    background: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 300px;
+    }
+
+/*Logo imagen*/
+.logo img {
+    margin-bottom: 50px;
+}
+
+/*Primer texto*/
+
+.first-text h2 {
+    font-size: 35px;
+}
+
+.first-text h2 span {
+   display: inline-block;
+}
+
+.first-text p {
+    font-size: 15.2px;
+}
+
+.first-text p span {
+    display: inline-block;
+}
+
+.first-text p .span-jump {
+    display: block;
+}
+
+.first-text .buttoms  {
+    display: flex;
+    width: 100%;
+}
+
+.first-text .btn {
+    margin-right: -100px;
+    width: 175px;
+    height: 40px;
+}
+
+.first-text .btn2 {
+    width: 175px;
+    height: 40px;
+}
+
+
+/*Segundo texto*/
+
+.second-text h2 span {
+    display: inline-block;
+}
+
+.second-text p span {
+    display: inline-block;
+}
+
+.second-text p .span-jump2 {
+    display: block;
+}
+
+/*Primer imagen*/
+
+.conteiner-img img {
+    display: flex;
+    float: left;
+    width: 710px;
+    height: 500px;
+    margin-left: -35px;
+}
+
+
+/*Tercer texto*/
+
+.third-text h2 {
+    margin-top: 20px;
+}
+
+.third-text {
+    margin-top: 100px;
+    margin-bottom: 800px;
+}
+
+.third-text h2 {
+    float: left;
+    margin-left: 115px;
+}
+
+.third-text p {
+    display: block;
+    float: left;
+    margin-left: 115px;
+    text-align: initial;
+}
+
+
+.third-text p .span-jump3 {
+    display: inline-block;
+}
+
+.third-text p .span-jump4 {
+    display: inline-block;
+}
+
+.third-text p .span-jump5 {
+    display: inline-block;
+}
+
+
+.third-text .sub-text2 br {
+    display: block;
+}
+
+.third-text .sub-text3 br {
+    display: block;
+}
+
+
+/*Cuarto texto*/
+
+.fourth-text p .span-jump6 {
+    display: inline-block;
+}
+
+.fourth-text  br {
+    display: block;
+}
+
+
+/*Segunda imagen*/
+
+.conteiner-img2 img {
+    width: 745px;
+    height: 485px;
+}
+
+/*Quinto texto*/
+
+.fifth-text span {
+    display: inline-block;
+}
+
+
+
+/*Iconos-tools*/
+
+.tools {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+
+.tools img {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.tools .blacklists , .snippets , .preview {
+    margin: -0px 50px;
+    
+}
+
+.tools .snippets img {
+    margin-top: -30px;
+}
+
+.tools .preview img {
+    margin-top: -30px;
+}
+
+
+/*Textos-tools*/
+
+.tools .blacklists p span {
+    display: inline-block;
+    
+}
+
+.tools .blacklists br {
+    display: block;
+}
+
+.tools .blacklists .br-exception {
+    display: none;
+}
+
+.tools .snippets span {
+    display: inline-block;
+}
+
+.tools .snippets br {
+    display: block;
+}
+
+.tools .preview span {
+    display: inline-block;
+}
+
+.tools .preview br {
+    display: block;
+}
+
+
+
+
+/*Logos empresas*/
+
+.logo-empress {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-empress .logo1 , 
+.logo2 , 
+.logo3 , 
+.logo4 , 
+.logo5 {
+
+    margin: auto 5px;
+}
+
+
+/*Sexto texto*/
+
+.sixth-text br {
+    display: none;
+}
+
+.sixth-text .br-exception2 {
+    display: block;
+}
+
+
+/*Segundos Botones*/
+
+.sixth-text .buttoms2  {
+    display: flex;
+    width: 100%;
+}
+
+.sixth-text .btn3 {
+    margin-right: -100px;
+    width: 175px;
+    height: 40px;
+}
+
+.sixth-text .btn4 {
+    width: 175px;
+    height: 40px;
+}
+
+
+/*Footer*/
+
+.conteiner-footer {
+    display: flex;
+    height: 200px;
+
+}
+
+.conteiner-footer .logo-footer {
+    margin-top: 0px;
+}
+
+
+.conteiner-footer .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+.footer-nav {
+    margin: 50px auto;
+}
+
+.footer-nav p {
+    margin: 0px 15px;
+    text-align: initial;
+    height: 60px;
+    padding: 0px;
+}
+
+.footer-nav .box2 {
+    margin-top: -50px;
+}
+
+.footer-nav .box4 {
+    margin-top: -50px;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 0px;
+  }
+  
+.box2 {
+    grid-template-columns: 1;
+    grid-row-start: 2;
+}
+
+.box3 {
+    grid-template-columns: 2;
+    grid-column-end: 3;
+}
+
+.box4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+.box5 {
+    grid-template-columns: 3;
+}
+
+.socials {
+    position: relative;
+    left: 250px;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.socials .socials-logo {
+    width: 20px;
+    height: 20px;
+}
+
+
+.attribution {
+    display: none;
+    position: relative;
+    height: 20px;
+    display: flex;
+    bottom: -150px;
+    left: -550px;
+}
+}
+
+
+@media(min-width: 1300px) {
+    .first-text .btn {
+        margin-right: -435px;
+    }
+
+
+    .sixth-text .btn3 {
+        margin-right: -435px;
+    }
+    
+
+}
