@@ -830,3 +830,25 @@ html {
     
 
 }
+
+
+@media(min-width: 1400px) {
+ 
+    .third-text {
+        margin-top: 100px;
+        margin-bottom: 800px;
+    }
+    
+    .third-text h2 {
+        float: left;
+        margin-left: 155px;
+    }
+    
+    .third-text p {
+        display: block;
+        float: left;
+        margin-left: 155px;
+        text-align: initial;
+    }
+    
+}
